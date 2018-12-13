@@ -7,7 +7,7 @@ Spring Boot(英文中是“引导”的意思)，是用来简化Spring应用的�
 
 因为“习惯优先于配置”的原则，使得Spring Boot在快速开发应用和微服务架构实践中得到广泛应用。
 
-#可以直接使用Maven骨架工程生成Maven骨架Web项目，即man archetype:generate命令： 创建springboot的web项目
+#可以直接使用Maven骨架工程生成Maven骨架Web项目，即mvn archetype:generate命令： 创建springboot的web项目
 mvn archetype:generate -DgroupId=com.ztesoft.app -DartifactId=czs-webApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 
 #项目启动类 WebAppApplication
